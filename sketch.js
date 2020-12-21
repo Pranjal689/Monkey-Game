@@ -73,6 +73,7 @@ background("lightblue")
   }
   if(gameState===END){
     obstacleGroup.setVelocityXEach(0)
+   ground.velocityX=0
     FoodGroup.setVelocityXEach(0)
     obstacleGroup.setLifetimeEach(-1)
     FoodGroup.setLifetimeEach(-1)
